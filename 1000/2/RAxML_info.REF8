@@ -1,0 +1,77 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1618 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 4.98%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1618
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml8 -f e -t ./true.fasttree -m GTRGAMMA -s ./aln_shuf.fa -n REF8 -p 1984 -T 8 
+
+
+
+Model parameters (binary file format) written to: /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/run5/1000/2/RAxML_binaryModelParameters.REF8
+
+
+Overall Time for Tree Evaluation 8.191283
+Final GAMMA  likelihood: -915602.436153
+
+Number of free parameters for AIC-TEST(BR-LEN): 2006
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.845753
+Tree-Length: 222.282759
+rate A <-> C: 0.993670
+rate A <-> G: 1.154019
+rate A <-> T: 1.552494
+rate C <-> G: 0.655483
+rate C <-> T: 1.278941
+rate G <-> T: 1.000000
+
+freq pi(A): 0.200552
+freq pi(C): 0.290792
+freq pi(G): 0.327100
+freq pi(T): 0.181556
+
+Final tree written to:                 /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/run5/1000/2/RAxML_result.REF8
+Execution Log File written to:         /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/run5/1000/2/RAxML_log.REF8
