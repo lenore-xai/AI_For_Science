@@ -1,0 +1,160 @@
+
+
+IMPORTANT WARNING: Sequences L1852419 and L1852418 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L869192 and L869193 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L802721 and L802722 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1040961 and L1040958 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1849411 and L1849412 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L366930 and L366929 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1118794 and L1118795 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1509522 and L1509521 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1739035 and L1739036 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L93576 and L93575 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L371446 and L371445 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L34021 and L34020 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L111069 and L111070 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1237058 and L1237057 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1349055 and L1349056 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1604179 and L1604178 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L907270 and L907269 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1905222 and L1905223 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L825432 and L825431 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1673584 and L1673585 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1580437 and L1580438 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L117625 and L117626 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L645011 and L645010 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1141827 and L1141828 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1758282 and L1758281 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L781100 and L781099 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L704232 and L704233 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1235705 and L1235707 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1430460 and L1430461 are exactly identical
+
+IMPORTANT WARNING
+Found 29 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ./aln_dna.phy.reduced
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 1623 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.14%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1623
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -f e -t ./true.fasttree -m GTRGAMMA -s ./aln_dna.phy -n REF -p 1984 -T 8 
+
+
+
+
+Overall Time for Tree Evaluation 202.373999
+Final GAMMA  likelihood: nan
+Number of free parameters for AIC-TEST(BR-LEN): 100006
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.578600
+Tree-Length: 2028.963388
+rate A <-> C: 0.153715
+rate A <-> G: 0.080621
+rate A <-> T: 0.307039
+rate C <-> G: 0.076426
+rate C <-> T: 0.076684
+rate G <-> T: 1.000000
+
+freq pi(A): 0.200620
+freq pi(C): 0.290496
+freq pi(G): 0.326733
+freq pi(T): 0.182151
+
+Final tree written to:                 /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/data/50000/0/RAxML_result.REF
+Execution Log File written to:         /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/data/50000/0/RAxML_log.REF
