@@ -1,0 +1,79 @@
+
+
+IMPORTANT WARNING: Sequences L326924 and L326923 are exactly identical
+
+
+IMPORTANT WARNING: Sequences L1946578 and L1946579 are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ./aln_dna.phy.reduced
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 1623 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.14%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1623
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -f e -t ./true.fasttree -m GTRGAMMA -s ./aln_dna.phy -n REF -p 1984 -T 8 
+
+
+
+
+Overall Time for Tree Evaluation 40.612932
+Final GAMMA  likelihood: -inf
+Number of free parameters for AIC-TEST(BR-LEN): 20006
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.576490
+Tree-Length: 862.395422
+rate A <-> C: 0.076426
+rate A <-> G: 0.204460
+rate A <-> T: 0.500224
+rate C <-> G: 0.467849
+rate C <-> T: 0.505487
+rate G <-> T: 1.000000
+
+freq pi(A): 0.200593
+freq pi(C): 0.290425
+freq pi(G): 0.326893
+freq pi(T): 0.182090
+
+Final tree written to:                 /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/data/10000/3/RAxML_result.REF
+Execution Log File written to:         /oasis/projects/nsf/uot138/balaban/rnasim-var-size4/data/10000/3/RAxML_log.REF
