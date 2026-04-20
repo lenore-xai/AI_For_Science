@@ -1,0 +1,79 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1621 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.02%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1621
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml8 -f e -t ./true.fasttree -m GTRCAT -s ./aln_shuf.fa -n REF8 -p 1984 -T 8 
+
+
+
+Model parameters (binary file format) written to: /oasis/tscc/scratch/balaban/reanalysis/run5/5000/2/RAxML_binaryModelParameters.REF8
+
+
+Overall Time for Tree Evaluation 26.249039
+Final GAMMA  likelihood: -3997908.612377
+
+Number of free parameters for AIC-TEST(BR-LEN): 10006
+Number of free parameters for AIC-TEST(NO-BR-LEN): 9
+
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 1.000000
+Tree-Length: 829.095783
+rate A <-> C: 1.012900
+rate A <-> G: 1.135302
+rate A <-> T: 1.638223
+rate C <-> G: 0.611359
+rate C <-> T: 1.238239
+rate G <-> T: 1.000000
+
+freq pi(A): 0.200581
+freq pi(C): 0.290588
+freq pi(G): 0.326805
+freq pi(T): 0.182026
+
+Final tree written to:                 /oasis/tscc/scratch/balaban/reanalysis/run5/5000/2/RAxML_result.REF8
+Execution Log File written to:         /oasis/tscc/scratch/balaban/reanalysis/run5/5000/2/RAxML_log.REF8
